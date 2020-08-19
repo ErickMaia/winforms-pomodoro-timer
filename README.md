@@ -1,4 +1,4 @@
 # Winforms Pomodoro Timer
-Simple Pomodoro Timer made for Windows desktop. 
+Simple and intuitive Pomodoro Timer made for Windows desktop. 
 
 ![Main form](https://i.imgur.com/xqlVbmD.png)
