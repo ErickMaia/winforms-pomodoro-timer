@@ -172,7 +172,7 @@ namespace Pomodoro
 
                 case PomodoroStatus.Pomodoro:
                     lblStatus.Text = "Pomodoro";
-                    lblStatus.ForeColor = Color.Red;
+                    lblStatus.ForeColor = Color.Tomato;
                     break;
 
                 case PomodoroStatus.ShortBreak:
@@ -187,27 +187,9 @@ namespace Pomodoro
             }
         }
 
-        private void VisitLink()
-        {
-            // Change the color of the link text by setting LinkVisited
-            // to true.
-            linkLabel1.LinkVisited = true;
-            //Call the Process.Start method to open the default browser
-            //with a URL:
-            System.Diagnostics.Process.Start("https://icons8.com/icons/set/tomato--v2");
-        }
+        
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            try
-            {
-                VisitLink();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Unable to open link that was clicked.", Application.ProductName);
-            }
-        }
+        
 
         private void gpBoxMinutes_Enter(object sender, EventArgs e)
         {
@@ -258,6 +240,10 @@ namespace Pomodoro
             PlaySwitch();
         }
 
-        
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            FrmInfo Frm = new FrmInfo();
+            Frm.ShowDialog();
+        }
     }
 }

@@ -41,10 +41,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtPomodoro = new System.Windows.Forms.TextBox();
             this.lblStatus = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnSwitchPomodoro = new System.Windows.Forms.Button();
             this.btnSwitchShortBreak = new System.Windows.Forms.Button();
             this.btnSwitchLongBreak = new System.Windows.Forms.Button();
+            this.btnInfo = new System.Windows.Forms.Button();
             this.gpBoxMinutes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -158,17 +158,6 @@
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblStatus.Click += new System.EventHandler(this.lblStatus_Click);
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(9, 327);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(115, 13);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Tomato icon by Icons8";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // btnSwitchPomodoro
             // 
             this.btnSwitchPomodoro.Enabled = false;
@@ -205,15 +194,27 @@
             this.btnSwitchLongBreak.UseVisualStyleBackColor = true;
             this.btnSwitchLongBreak.Click += new System.EventHandler(this.btnSwitchLongBreak_Click);
             // 
+            // btnInfo
+            // 
+            this.btnInfo.Font = new System.Drawing.Font("Segoe Script", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInfo.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btnInfo.Location = new System.Drawing.Point(491, 304);
+            this.btnInfo.Name = "btnInfo";
+            this.btnInfo.Size = new System.Drawing.Size(36, 36);
+            this.btnInfo.TabIndex = 14;
+            this.btnInfo.Text = "i";
+            this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(536, 345);
+            this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnSwitchLongBreak);
             this.Controls.Add(this.btnSwitchShortBreak);
             this.Controls.Add(this.btnSwitchPomodoro);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.gpBoxMinutes);
             this.Controls.Add(this.btnAction);
@@ -228,7 +229,6 @@
             this.gpBoxMinutes.ResumeLayout(false);
             this.gpBoxMinutes.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -245,10 +245,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPomodoro;
         private System.Windows.Forms.Label lblStatus;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button btnSwitchPomodoro;
         private System.Windows.Forms.Button btnSwitchShortBreak;
         private System.Windows.Forms.Button btnSwitchLongBreak;
+        private System.Windows.Forms.Button btnInfo;
     }
 }
 

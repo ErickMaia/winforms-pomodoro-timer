@@ -8,3 +8,4 @@ C:\Users\every\source\repos\PomodoroTimer\PomodoroTimer\bin\Debug\Pomodoro Timer
 C:\Users\every\source\repos\PomodoroTimer\PomodoroTimer\bin\Debug\Pomodoro Timer.pdb
 C:\Users\every\source\repos\PomodoroTimer\PomodoroTimer\obj\Debug\Pomodoro Timer.exe
 C:\Users\every\source\repos\PomodoroTimer\PomodoroTimer\obj\Debug\Pomodoro Timer.pdb
+C:\Users\every\source\repos\PomodoroTimer\PomodoroTimer\obj\Debug\Pomodoro.FrmInfo.resources
